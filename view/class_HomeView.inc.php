@@ -4,8 +4,8 @@ class HomeView extends LibrarySystem{
 
     public static function setLayout($template){
         
-        $header = 'layout/header.php';
-        $footer = 'layout/footer.php';
+        $header = 'layout/header.html';
+        $footer = 'layout/footer.html';
 
         require_once($header);
         
@@ -17,8 +17,8 @@ class HomeView extends LibrarySystem{
     }
 
     public static function setContent($template){
-        if(file_exists('layout/'.$template.'.php')){
-            require_once('layout/'.$template.'.php');
+        if(file_exists('layout/'.$template.'.html')){
+            require_once('layout/'.$template.'.html');
         }else{
             echo 'CONTENT NOT FOUND !';
         }
