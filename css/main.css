@@ -1,0 +1,10 @@
+main{
+    background-image: url("../media/img/default.jpg");
+    margin-top:5vh;
+    background-size: cover;
+    height:95vh;
+}
+
+body{
+    color:white;
+}
