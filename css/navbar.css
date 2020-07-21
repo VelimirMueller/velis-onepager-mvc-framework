@@ -155,4 +155,8 @@ body
     margin-right: 2vw;
 }
 
+.brand-title a{
+    text-decoration: none;
+    color:white;
+}
 
